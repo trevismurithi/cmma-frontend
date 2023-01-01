@@ -1,1 +1,1 @@
-web: nuxt preview
+web: yarn preview
