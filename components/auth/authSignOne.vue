@@ -14,6 +14,7 @@ const phone = ref('')
 // form ref
 const form: any = ref(null)
 // define rules
+// TODO: define general rules
 const fieldRule = reactive([
   function (val:any) {
     return !!val || 'field is required'
