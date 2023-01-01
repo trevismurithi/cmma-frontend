@@ -4,7 +4,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "node_modules/nuxt/bin/nuxt.mjs preview",
+    "preview": "node_modules/nuxt/bin/nuxt.js preview -c ./nuxt.config.ts",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
